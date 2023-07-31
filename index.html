@@ -3,6 +3,14 @@
 <!-- html tags are predefined , user can't defined html tags  -->
 <html>
   <head>
+
+  <style>
+#myid {
+   background-color: aqua;
+}
+
+  </style>
+
     <title>My Website</title>
     <style>
       .box
@@ -35,7 +43,7 @@
     <!-- h7 and h8 are not predefined in HTML 
     it is not recognised by the browser
     it gives output as a simple text  -->
-    <h7>this is h7 heading</h7>
+    <h7>this is h7 heading</h7> 
     <h8>this is h8 heading</h8>
 
     <!-- paragraph tags in HTML  -->
@@ -60,7 +68,7 @@
 
     <!-- lists in HTML   1. ordered lists 2.unodered lists -->
 
-    <h4>Lists in HTML</h4>
+    <h4 id="ID">Lists in HTML</h4>
 
     <h5>unodered list</h5>
     <ul type="circle">
@@ -117,17 +125,63 @@
     <!-- date- 27/07/2023  -->
     
     <!-- to open a link or to redirect a page into another page  -->
-    <a href="https://google.com" target="_blank">Google</a>
+    <a href="https://google.com" target="_blank">Google</a><br><br>
     <!-- to call by click on icon  -->
-    <a href="tel:+9116525110">call</a>
+    <a href="tel:+9116525110">call</a><br><br>
     <!-- to mail by click on icon  -->
-    <a href="mailto:mistrysachin185@gmail.com">To mail</a>
-    <a href="/about.html">Click here</a>
+    <a href="mailto:mistrysachin185@gmail.com">To mail</a><br><br>
+    <a href="/about.html">Click here</a><br><br>
     <!-- to add image as a link  -->
-    <a href="/about.html"><img src="gameimg5.jpg" alt="html logo" height="40px" width="40px"></a>
+    <a href="/about.html"><img src="gameimg5.jpg" alt="html logo" height="40px" width="40px"></a><br><br>
+    
+    <br>
+    <br>
+    <table border="1" cellspcing="0">
+    <tr>
+    <th colspan="2">1</th>
+    <th>2</th>
+    <th>3</th>
+    <!-- <th>4</th> -->
+  </tr>
+    <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+  </tr>
+    <tr>
+    <th rowspan="2">1</th>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    </tr>
+    <tr>
+      <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <!-- <td>4</td> -->
+    </tr>
+    </table>
+    <br>
+    <br>
+    <table border="1">
+      <tr><th><img src="gameimg5.jpg" alt="html logo" height="40px" width="40px">1</th>
+        <th><img src="gameimg5.jpg" alt="html logo" height="40px" width="40px">2</th>
+         <th><img src="gameimg5.jpg" alt="html logo" height="40px" width="40px">3</th>
+         <th><img src="gameimg5.jpg" alt="html logo" height="40px" width="40px">4</th></tr>
+      <tr><th>1</th><th colspan="2" rowspan="2">2</th> <th>3</th></tr>
+      <tr><th>1</th><th>2</th></tr>
+      <tr><th>1</th><th>2</th> <th>3</th><th>4</th></tr>
+    </table>
 
-    
-    
+
+    <br>
+  
+    <p style="background-color: palegreen; font-size: 30px;">Test</p>
+  <p style=" background-color: rgb(163, 102, 102); color: green; font-size: 30px;">hello</p>
+  <p style=" background-color: blue; font-size: 30px;">pargraoh</p>
+  <a href id="#ID">ID</h1>
+   <!-- imprtent tag for first priority in upper tag in css -->
 
   </body>
 </html>
